@@ -1,16 +1,9 @@
-name: Jekyll Themes
-url: http://matt.harzewski.com
-description: Insert tagline here
+name: Solar Theme
+url: http://example.org
+description: A stylish blog using the Solarized color palette
 
-permalink: /themes/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-plugins: [jekyll-paginate]
-
-highlighter: pygments
-paginate: 20
-
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

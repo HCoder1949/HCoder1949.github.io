@@ -1,38 +1,19 @@
 ---
 layout: default
 ---
+<article class="post">
 
-<div id="post" class="container">
+	{% if page.external-url %}
+		<h1>
+			<a href="{{ page.external-url }}">{{ page.title }}</a> 
+			<a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
+		</h1>
+	{% else %}
+		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	{% endif %}
 
-	<div class="postthumb"><img src="/thumbnails/{{ page.thumbnail }}" /></div>
+	<div class="post-content">{{ content }}</div>
 
-	<h1>{{ page.title }}</h1>
+	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
 
-	<div class="meta clearfix">
-		<strong>Author:</strong> {{ page.author }}
-
-		{% if page.license %}
-			<br /><strong>License:</strong> {{ page.license }}
-		{% endif %}
-
-		<br /><br />
-		{% if page.homepage %}
-			<a class="btn" href="{{ page.homepage }}"><i class="icon-home"></i> Homepage</a>
-		{% endif %}
-		{% if page.download %}
-			<a class="btn" href="{{ page.download }}"><i class="icon-download-alt"></i> Download</a>
-		{% endif %}
-		{% if page.demo %}
-			<a class="btn" href="{{ page.demo }}"><i class="icon-road"></i> Demo</a>
-		{% endif %}
-		{% if page.license_link %}
-			<a class="btn" href="{{ page.license_link }}"><i class="icon-file"></i> License</a>
-		{% endif %}
-	</div>
-
-
-	<div class="post-content">
-	{{ content }}
-	</div>
-
-</div>
+</article>
