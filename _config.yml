@@ -16,10 +16,10 @@
 title: HCoder1949
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/HCoder1949"
-url: "https://hcoder1949.github.io"
+baseurl: ""
+url: "https://github.com/HCoder1949"
 permalink: /:year/:month/:day/:title
-repository: ShawnTeoh/matjek
+repository: HCoder1949/HCoder1949.github.io
 paginate: 5
 
 # MatJek specific configurations
