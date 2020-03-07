@@ -8,9 +8,9 @@ comments: 1
 ---
 # 纪念
 #### 第一次的GitHub Page搭建成功
-<div align=left>
+
     <img src="/pic/1.1.jpg" width="600"/>
-</div>
+
 #### 使用到技术
 ######  * [1、Git 版本控制](#1)
 ######  * [2、Markdown 标记语言](#2)
