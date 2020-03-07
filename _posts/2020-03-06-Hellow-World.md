@@ -38,16 +38,16 @@ comments: 1
 本文嘛，我呢，并没有进行git安装，因为啊……（继续看就知道了）   
 （以后会不会完成这个步骤呢，嘿嘿，看情况吧）
 
-<h3 id="2">2、Markdown 标记语言</h3>
+<h4 id="2">2、Markdown 标记语言</h4>
 
 >sdh
 >>sd
 
 
 
-<h3 id="3">3、GitHub 软件项目的托管平台</h3>
+<h4 id="3">3、GitHub 软件项目的托管平台</h4>
 
 
 
 
-<h3 id="4">4、GitHub Page 的静态博客</h3>
+<h4 id="4">4、GitHub Page 的静态博客</h4>
