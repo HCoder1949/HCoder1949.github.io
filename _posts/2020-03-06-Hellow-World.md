@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to GitHub Page!"
 date:   2020-03-06 14:30:13 +0800
 categories: GitHub Page Blog
 tags: MY
@@ -9,24 +9,36 @@ comments: 1
 # 纪念
 #### 第一次的GitHub Page搭建成功
 
-![pic1](/pic/1.1.jpg "可选标题"){:height="600" width="800"}
+![pic1](/pic/1.1.jpg "可选标题"){:height="400" width="800"}
 
 #### 使用到技术
-######  * [1、Git 版本控制](#1)
-######  * [2、Markdown 标记语言](#2)
-######  * [3、GitHub 软件项目的托管平台](#3)
-######  * [4、GitHub Page 的静态博客](#4)
-<h2 id="1">1、Git 版本控制</h2>
+#### [1、Git 版本控制](#1)
+#### [2、Markdown 标记语言](#2)
+#### [3、GitHub 软件项目的托管平台](#3)
+#### [4、GitHub Page 的静态博客](#4)
+
+<h3 id="1">1、Git 版本控制</h3>
+
+> * 简介
+>>像历史介绍、来源这些故事、可参考[廖雪峰的网站--Git简介](https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000)
+
+>>我的理解：git,即，版本管理
+最简单的解释就是，不管任何电子信息都需要修改和更新，管理修改和更新的工具和手段，就是git
+
+>>关于Git的安装
+本文嘛，我呢，并没有进行git安装，因为啊……（继续看就知道了）   
+（以后会不会完成这个步骤呢，嘿嘿，看情况吧）
+
+<h3 id="2">2、Markdown 标记语言</h3>
+
+>sdh
+>>sd
 
 
 
-<h2 id="1">2、Markdown 标记语言</h2>
-
-
-
-<h2 id="1">3、GitHub 软件项目的托管平台</h2>
+<h3 id="3">3、GitHub 软件项目的托管平台</h3>
 
 
 
 
-<h2 id="1">4、GitHub Page 的静态博客</h2>
+<h3 id="4">4、GitHub Page 的静态博客</h3>
