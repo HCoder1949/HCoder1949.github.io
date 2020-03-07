@@ -9,7 +9,7 @@ comments: 1
 # 纪念
 #### 第一次的GitHub Page搭建成功
 
-![pic1](/pic/1.1.jpg "可选标题"){:height="100" width="100"}
+![pic1](/pic/1.1.jpg "可选标题"){:height="600" width="800"}
 
 #### 使用到技术
 ######  * [1、Git 版本控制](#1)
