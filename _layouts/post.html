@@ -41,7 +41,7 @@ js: ["post.js"]
     {{ content }}
   </div>
 </div>
-{% if site.disqus_shortname and page.comments %}
+<!--{% if site.disqus_shortname and page.comments %}
 <div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
@@ -56,4 +56,18 @@ js: ["post.js"]
   })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+{% endif %}-->
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'HCoder1949',
+    repo: 'HCoder1949.github.io',
+    oauth: {
+        client_id: '91896b69f6ba4f4e1e28',
+        client_secret: '5a72aa13361736bad05b039d8873b99745014270',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
